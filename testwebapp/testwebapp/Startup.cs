@@ -44,6 +44,7 @@ namespace testwebapp
             }
             else
             {
+                app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
 
